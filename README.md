@@ -24,8 +24,8 @@ Then install ruby
 
 ```bash
 rvm get stable
-rvm list # to see available rubies 
-rvm use ruby-X.X.X # to activate ruby environment
+rvm list  # NOTE: to see available rubies 
+rvm use ruby-X.X.X  # NOTE: to activate ruby environment
 ```
 
 Then install CocoaPods
@@ -37,7 +37,7 @@ gem install cocoapods
 To install dependencies use: 
 
 ```bash
-pod install  #in the same directory with Podsfile
+pod install  # IMPORTANT: in the same directory with Podsfile
 ```
 
 in the same directory with Podsfile
