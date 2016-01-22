@@ -37,7 +37,7 @@ gem install cocoapods
 To install dependencies use: 
 
 ```bash
-pod install #in the same directory with Podsfile
+pod install  #in the same directory with Podsfile
 ```
 
 in the same directory with Podsfile
