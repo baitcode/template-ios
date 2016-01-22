@@ -50,7 +50,7 @@ in the same directory with Podsfile
 
 ## What I've done so far?
 
-Just created an singlePage application, then run:
+Just created an application with single view app template, then run:
 
 ```bash
 pod init && pod install
