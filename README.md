@@ -1,6 +1,9 @@
 # template-ios
 Clean project for iOs with cocoapods
 
+## Important
+
+Open template-ios.xcworkspace through XCode
 
 ## CocoaPods preconfigured:
 
