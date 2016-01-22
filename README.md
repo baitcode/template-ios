@@ -47,3 +47,15 @@ in the same directory with Podsfile
 [ModelRocket](https://github.com/ovenbits/ModelRocket) - JSON parsing library with nice declarative syntax.
 
 [AlamoFire](http://cocoadocs.org/docsets/Alamofire/3.1.5/) - Networking for IOs written wih swift
+
+## What I've done so far?
+
+Just created an singlePage application, then run:
+
+```bash
+pod init && pod install
+```
+
+in apps folder.
+
+Edited the Podsfile.
