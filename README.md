@@ -1,5 +1,5 @@
 # template-ios
-Clean project for iOs with cocoapods
+Clean project for iOs with CocoaPods and Swift
 
 ## Important
 
@@ -28,10 +28,10 @@ rvm list # to see available rubies
 rvm use ruby-X.X.X # to activate ruby environment
 ```
 
-Then install CoCoapods
+Then install CocoaPods
 
 ``` bash
-gem install ruby
+gem install cocoapods
 ```
 
 To install dependencies use: 
