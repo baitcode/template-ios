@@ -3,11 +3,14 @@ Clean project for iOs with cocoapods
 
 ## Important
 
-Open template-ios.xcworkspace through XCode
+Open template-ios.xcworkspace, not *.xcproject through XCode. xcworkspace contains rules to build 
+CocoaPods dependencies, they won't compile otherwise and your code wont work
 
 ## Preparations
 
-### Cocoapods
+It's good to have brew preconfigured. For this project it's unnecessary, but may come handy in the future.
+
+### [CocoaPods](https://cocoapods.org/)
 
 First you need to install rvm, to isolate ruby environments. Check instructions [here](https://rvm.io/).
 
@@ -25,7 +28,7 @@ rvm list # to see available rubies
 rvm use ruby-X.X.X # to activate ruby environment
 ```
 
-Then install cocoapods
+Then install CoCoapods
 
 ``` bash
 gem install ruby
@@ -39,7 +42,7 @@ pod install
 
 in the same directory with Podsfile
 
-## CocoaPods preconfigured:
+### Pods preinstalled:
 
 [ModelRocket](https://github.com/ovenbits/ModelRocket) - JSON parsing library with nice declarative syntax.
 [AlamoFire](http://cocoadocs.org/docsets/Alamofire/3.1.5/) - Networking for IOs written wih swift
